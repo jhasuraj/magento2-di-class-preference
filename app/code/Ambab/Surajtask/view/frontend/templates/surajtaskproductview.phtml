@@ -1,0 +1,9 @@
+<h1><?php echo $this->escapeHtml($this->getMessage()); ?></h1>
+
+<?php $product = $this->getLoadProduct(1);
+	// echo $product->getName();
+	// echo $product->getProductUrl();
+?>
+
+<h4><?php echo $product->getName(); ?></h4>
+<h4><?php echo $product->getPrice(); ?></h4>
